@@ -15,7 +15,7 @@ import java.util.Set;
 
 @SpringBootApplication
 @Configuration
-@EnableRedisDocumentRepositories(basePackages = "net.providence.redisjsonv2.*")
+@EnableRedisDocumentRepositories
 public class RedisJsonV2Application {
 
     @Autowired
